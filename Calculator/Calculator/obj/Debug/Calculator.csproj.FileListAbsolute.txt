@@ -1,0 +1,10 @@
+D:\github\calculator-phamhongnhatan\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\github\calculator-phamhongnhatan\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\github\calculator-phamhongnhatan\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\github\calculator-phamhongnhatan\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+D:\github\calculator-phamhongnhatan\Calculator\Calculator\obj\Debug\Calculator.frmMain.resources
+D:\github\calculator-phamhongnhatan\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\github\calculator-phamhongnhatan\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+D:\github\calculator-phamhongnhatan\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\github\calculator-phamhongnhatan\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\github\calculator-phamhongnhatan\Calculator\Calculator\obj\Debug\Calculator.pdb
