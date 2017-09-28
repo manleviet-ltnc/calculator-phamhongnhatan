@@ -19,7 +19,7 @@ namespace Calculator
 
         bool isTyingNumber = false;
 
-        enum PhepToan { Cong, Tru, Nhan, Chia};
+        enum PhepToan {None, Cong, Tru, Nhan, Chia};
         PhepToan pheptoan;
 
         double nho;
@@ -44,7 +44,10 @@ namespace Calculator
 
         private void NhapPhepToan(object sender, EventArgs e)
         {
-            TinhKetQua();
+            
+
+            if (nho != 0)
+                TinhKetQua();
 
             Button btn = (Button)sender;
             switch (btn.Text)
@@ -77,9 +80,11 @@ namespace Calculator
         }
 
         private void btnBang_Click(object sender, EventArgs e)
-        {
+        { 
             TinhKetQua();
             isTyingNumber = false;
+            nho = 0;
+            pheptoan = PhepToan.None;
         }
 
         private void frmMain_KeyPress(object sender, KeyPressEventArgs e)
