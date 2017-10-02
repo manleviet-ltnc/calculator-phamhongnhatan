@@ -140,6 +140,22 @@ namespace Calculator
                 lblDisplay.Text = so;
                 isTyingNumber = true;
             }
+
+
+        }
+
+        private void btnThapPhan_Click(object sender, EventArgs e)
+        {
+            if (lblDisplay.Text.Contains("."))
+            {
+                if (lblDisplay.Text=="0.")
+                {
+                    lblDisplay.Text = "";
+                    Nhapso("0.");
+                }
+                return;
+            }
+            lblDisplay.Text += ".";
         }
     }
 }
