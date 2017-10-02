@@ -100,5 +100,26 @@ namespace Calculator
                     break;
             }
         }
+
+        private void btnCan_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = (Math.Sqrt(double.Parse(lblDisplay.Text))).ToString();
+        }
+
+        private void btnPhanTram_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = ((double.Parse(lblDisplay.Text) / 100)).ToString();
+        }
+
+        private void btnDoiDau_Click(object sender, EventArgs e)
+        {
+            lblDisplay.Text = (-1 * (double.Parse(lblDisplay.Text))).ToString();
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            if (lblDisplay.Text != "")
+                lblDisplay.Text = (lblDisplay.Text).Substring(0, lblDisplay.Text.Length - 1);
+        }
     }
 }
